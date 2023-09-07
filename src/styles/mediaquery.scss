@@ -1,0 +1,28 @@
+@media (max-width: 900px) {
+    .login {
+      padding: 0;
+    }
+  }
+
+@media (max-width: 414px){
+
+  .header {
+    flex-direction: column;
+    
+  }
+
+  .title {
+    text-align: center;
+    
+  }
+
+  article {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+ 
+}
