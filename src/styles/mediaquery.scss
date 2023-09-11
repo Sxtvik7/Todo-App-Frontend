@@ -4,7 +4,7 @@
     }
   }
 
-@media (max-width: 414px){
+@media (max-width: 720px){
 
   .header {
     flex-direction: column;
@@ -26,3 +26,35 @@
   }
  
 }
+
+
+
+  @media (max-width: 410px) {
+
+    .header {
+      flex-direction: column;
+      font-size: 12px; 
+      margin: 2px, 0;
+      // background-color: crimson;
+    
+      .title {
+        text-align: center;
+      }
+    
+      article {
+        text-align: center;
+        margin-top: 10px;
+    
+        a {
+          font-size: 14px; 
+          margin: 5px, 0;
+        }
+      }
+    
+      .btn {
+        margin-top: 10px;
+        font-size: 14px; 
+      }
+  }
+}
+
